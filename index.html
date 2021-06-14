@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   <link rel="stylesheet" href="./assets/css/style.css" />
@@ -28,10 +29,6 @@
       </form>
     </div>
     </div>
-    
-   <!-- jQuery -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   
     <div class="col-12 col-md-10" id="city-daily">
       City's daily info
       <div><span id="city-name">city name</span><span id="currentdate">date</span><span id="icon">icon</span></div>
@@ -41,46 +38,34 @@
       <div id="UVindex">UVindex</div>
 
     </div>
-    <div class="col-12 col-md-2" id="city-list"></div>
-      
-   
-    <div class="col-12 col-md-2">
-     <div>Daily city data 1 </div>
-     <div>Daily city data 2 </div> 
-     <div>Daily city data 3 </div> 
-     <div>Daily city data 4 </div> 
-     <div>Daily city data 5 </div> 
+    <div class="col-12 col-md-2" id="city-list">
+      <button>city 1</button>
+      <li>city 2</li>
+      <li>city 1</li>
+      <li>city 1</li>
+      <li>city 1</li>
+      <li>city 1</li>
+      <li>city 1</li>
     </div>
-    <div class="col-12 col-md-2">
-      <div>Daily city data 1 </div>
-      <div>Daily city data 2 </div> 
-      <div>Daily city data 3 </div> 
-      <div>Daily city data 4 </div> 
-      <div>Daily city data 5 </div> 
-     </div>
-     <div class="col-12 col-md-2">
-      <div>Daily city data 1 </div>
-      <div>Daily city data 2 </div> 
-      <div>Daily city data 3 </div> 
-      <div>Daily city data 4 </div> 
-      <div>Daily city data 5 </div> 
-     </div>
-     <div class="col-12 col-md-2">
-      <div>Daily city data 1 </div>
-      <div>Daily city data 2 </div> 
-      <div>Daily city data 3 </div> 
-      <div>Daily city data 4 </div> 
-      <div>Daily city data 5 </div> 
-     </div>
-     <div class="col-12 col-md-2">
-      <div>Daily city data 1 </div>
-      <div>Daily city data 2 </div> 
-      <div>Daily city data 3 </div> 
-      <div>Daily city data 4 </div> 
-      <div>Daily city data 5 </div> 
-     </div>
+    <div class="col-12 col-md-10">
+      <h2> 5 days forecast</h2>
+      <div class="container">
+        <div class="card-deck">
+          <div class="card bg-primary">
+            <div class="card-body text-left">
+              <div><span id="city-name">City name: </span><span id="currentdate">Current date</span><span id="icon">Weather icon</span></div>
+              <div id="temp">Temp</div>
+              <div id="wind">Wind</div>
+              <div id="humid">humid</div>
+              <div id="UVindex">UVindex</div>
+            </div>
+          </div>
+          </div>
+          </div>
+    </div>
   </main>
+      
+   <!-- jQuery -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="./assets/js/script.js"></script>
 </body>
-
-</html>
